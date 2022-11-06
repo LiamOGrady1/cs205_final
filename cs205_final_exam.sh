@@ -30,7 +30,7 @@ BEGIN{FS="\t"}
 {
 if (NR!=1){
 #add up hp
-atk+=$1
+atk+=$3
 
 sum+=1
 }
